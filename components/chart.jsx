@@ -39,7 +39,9 @@ const Chart = () =>{
     }
     return (
         <>
-        <Line data={data} width={20} height={20} options={options} />
+        <div className='line-chart'>
+        <Line data={data} width={80} height={80} options={options} />
+        </div>
         </>
     );
 }
